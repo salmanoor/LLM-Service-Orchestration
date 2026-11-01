@@ -1,0 +1,26 @@
+﻿# Ignore everything by default; allow directories so permitted files can be found
+*
+!*/
+!**/
+!*.py
+!*.txt
+!README.md
+!Readme.md
+!readme.md
+
+# Exclude hidden files, editor backups, QA, caches, models, data, and outputs
+.*
+!.gitignore
+~*
+*~
+**/qa/
+**/__pycache__/
+**/models/
+**/data/
+**/output/
+**/outputs/
+
+# Exclude Word documents
+*.doc
+*.docx
+*.docm

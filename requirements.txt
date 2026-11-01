@@ -1,0 +1,7 @@
+gpt4all==2.8.2
+Pillow>=10.4,<12
+python-docx>=1.1,<2
+numpy>=2.0,<2.8
+scipy==1.18.1
+pye57==0.4.19
+requests>=2.32,<3
